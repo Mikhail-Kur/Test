@@ -37,22 +37,23 @@ namespace Test
                 Req = resp.RequestToken;
                 Console.WriteLine(Req + Pass);
             }
+            response.Close();
 
             // Close the response.
             request= WebRequest.Create("http://api.pixlpark.com/oauth/accesstoken");
             request.Method="GET";
-
-            request.Headers.Add("oauth_token",Req);
-            request.Headers.Add("grant_type", "api");
-            request.Headers.Add("username", "38cd79b5f2b2486d86f562e3c43034f8");
             passwor = Req + Pass;
             SHA1 sHA = SHA1.Create();
+            hash = sHA.ComputeHash(Encoding.Default.GetBytes(passwor));
+            string acces = "";
+            for (int i = 0; i < hash.Length; i++)
+            {
+                acces += hash[i];
+            }
+            request.Headers.Add("oauth_token",Req);
+            request.Headers.Add("grant_type", "POST");
+            request.Headers.Add("username", "38cd79b5f2b2486d86f562e3c43034f8");
 
-            hash = sHA.ComputeHash(Encoding.Unicode.GetBytes(passwor));
-            var sb = new StringBuilder();
-            foreach (byte b in hash) sb.AppendFormat("{0:x2}", b);
-            string acces = sb.ToString();
-            //string acces = hash.ToString;
             request.Headers.Add("password", acces);
 
 
@@ -65,11 +66,11 @@ namespace Test
                 // Open the stream using a StreamReader for easy access.
                 StreamReader reader = new StreamReader(dataStream);
                 // Read the content.
-                string responseFromServer = reader.ReadToEnd();
-                dynamic resp = JObject.Parse(responseFromServer);
+                string responseFrom = reader.ReadToEnd();
+                dynamic resp = JObject.Parse(responseFrom);
                 // Display the content.
-                Console.WriteLine(resp.AccessToken);
-            }
+                Console.WriteLine(responseFrom+"   ==");
+            }   
 
             /*
             String id = "38cd79b5f2b2486d86f562e3c43034f8";
