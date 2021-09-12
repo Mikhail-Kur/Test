@@ -1,0 +1,111 @@
+{
+  "version": 2,
+  "dgSpecHash": "lyq5QwFWIGoSLsTX0DxQqF/+8ThbwP6xZzJ0NmUe+o1ePLE8KBD6Gm8tQ81L7Kxteicjd/jzCAbo5IcpYhuBvA==",
+  "success": true,
+  "projectFilePath": "D:\\проект\\Test\\Test\\Test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pc\\.nuget\\packages\\dotnetopenauth.aspnet\\4.1.4.12333\\dotnetopenauth.aspnet.4.1.4.12333.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\dotnetopenauth.core\\4.1.4.12333\\dotnetopenauth.core.4.1.4.12333.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\dotnetopenauth.oauth.consumer\\4.1.4.12333\\dotnetopenauth.oauth.consumer.4.1.4.12333.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\dotnetopenauth.oauth.core\\4.1.4.12333\\dotnetopenauth.oauth.core.4.1.4.12333.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\dotnetopenauth.openid.core\\4.1.4.12333\\dotnetopenauth.openid.core.4.1.4.12333.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\dotnetopenauth.openid.relyingparty\\4.1.4.12333\\dotnetopenauth.openid.relyingparty.4.1.4.12333.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\microsoft.aspnet.webpages.data\\3.2.7\\microsoft.aspnet.webpages.data.3.2.7.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\microsoft.aspnet.webpages.oauth\\3.2.7\\microsoft.aspnet.webpages.oauth.3.2.7.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\microsoft.aspnet.webpages.webdata\\3.2.7\\microsoft.aspnet.webpages.webdata.3.2.7.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\restsharp\\106.12.0\\restsharp.106.12.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"DotNetOpenAuth.AspNet 4.1.4.12333\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "DotNetOpenAuth.AspNet",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"DotNetOpenAuth.Core 4.1.4.12333\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "DotNetOpenAuth.Core",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"DotNetOpenAuth.OAuth.Consumer 4.1.4.12333\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "DotNetOpenAuth.OAuth.Consumer",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"DotNetOpenAuth.OAuth.Core 4.1.4.12333\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "DotNetOpenAuth.OAuth.Core",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"DotNetOpenAuth.OpenId.Core 4.1.4.12333\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "DotNetOpenAuth.OpenId.Core",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"DotNetOpenAuth.OpenId.RelyingParty 4.1.4.12333\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "DotNetOpenAuth.OpenId.RelyingParty",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"Microsoft.AspNet.WebPages.Data 3.2.7\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "Microsoft.AspNet.WebPages.Data",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"Microsoft.AspNet.WebPages.OAuth 3.2.7\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "Microsoft.AspNet.WebPages.OAuth",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"Microsoft.AspNet.WebPages.WebData 3.2.7\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "Microsoft.AspNet.WebPages.WebData",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
