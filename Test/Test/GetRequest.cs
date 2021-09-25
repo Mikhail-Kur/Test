@@ -25,7 +25,7 @@ namespace Test
         public GetRequest(string address)
         {
             _address = address;
-            Headers = new Dictionary<string, string>();
+            
         }
 
         public void Run(CookieContainer cookieContainer)
@@ -39,11 +39,7 @@ namespace Test
             _request.Headers.Add("password", Password);
             _request.Headers.Add("grant_type", Grant_type);
            
-            foreach (var pair in Headers)
-            {
-                _request.Headers.Add(pair.Key, pair.Value);
-            }
-
+           
             try
             {
                 HttpWebResponse response = (HttpWebResponse)_request.GetResponse();

@@ -24,14 +24,17 @@ namespace Test
 
 
 
-                string passwor;
-                string Req;
-                string Pass = "8e49ff607b1f46e1a5e8f6ad5d312a80";
-                string Username = "38cd79b5f2b2486d86f562e3c43034f8";
+            string passwor;
+            string Req;
+            string Pass = "8e49ff607b1f46e1a5e8f6ad5d312a80";
+            string Username = "38cd79b5f2b2486d86f562e3c43034f8";
 
-                WebRequest request = WebRequest.Create("http://api.pixlpark.com/oauth/requesttoken");
-                request.Method = "GET";
-                WebResponse response = request.GetResponse();
+            WebRequest request = WebRequest.Create("http://api.pixlpark.com/oauth/requesttoken");
+            request.Method = "GET";
+            var proxy = new WebProxy("127.0.0.1:8888");
+            request.Proxy = proxy;
+
+            WebResponse response = request.GetResponse();
 
 
                 Console.WriteLine(((HttpWebResponse)response).StatusDescription);
@@ -57,7 +60,7 @@ namespace Test
             getRequest.Oauth_token = Req;
             getRequest.Username = Username;
             getRequest.Password = hash;
-            getRequest.Proxy = new WebProxy("127.0.0.1:8888");
+            getRequest.Proxy = proxy;
             getRequest.Run(cookieContainer);
             Console.WriteLine(getRequest.Response);
            
