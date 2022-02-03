@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Progects\\Leson\\Leson\\Leson.csproj": {}
+    "C:\\Users\\pc\\source\\repos\\Test\\Leson\\Leson\\Leson.csproj": {}
   },
   "projects": {
-    "D:\\Progects\\Leson\\Leson\\Leson.csproj": {
+    "C:\\Users\\pc\\source\\repos\\Test\\Leson\\Leson\\Leson.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Progects\\Leson\\Leson\\Leson.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\source\\repos\\Test\\Leson\\Leson\\Leson.csproj",
         "projectName": "Leson",
-        "projectPath": "D:\\Progects\\Leson\\Leson\\Leson.csproj",
+        "projectPath": "C:\\Users\\pc\\source\\repos\\Test\\Leson\\Leson\\Leson.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "D:\\Progects\\Leson\\Leson\\obj\\",
+        "outputPath": "C:\\Users\\pc\\source\\repos\\Test\\Leson\\Leson\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -47,9 +44,17 @@
               "target": "Package",
               "version": "[5.2.7, )"
             },
+            "Microsoft.AspNetCore.Mvc.TagHelpers": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.StaticFiles": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
